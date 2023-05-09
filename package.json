@@ -1,0 +1,28 @@
+{
+  "name": "js-arithmetic",
+  "version": "1.0.0",
+  "description": "js数值计算，解决小数计算精度丢失的问题",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx babel lib --out-dir dist",
+	"test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzn302846/js-bigDecimal.git"
+  },
+  "keywords": [
+    "js-bigDecimal"
+  ],
+  "author": "lzn",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/lzn302846/js-bigDecimal/issues"
+  },
+  "homepage": "https://github.com/lzn302846/js-bigDecimal#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5"
+  }
+}
